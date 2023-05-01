@@ -1,6 +1,6 @@
-FROM thejmthon/jmub:slim-buster
+FROM kingasd64/jmub:slim-buster
 
-RUN git clone https://github.com/thejmthon/jmub.git /root/jmub
+RUN git clone https://github.com/kingasd64/jmub.git /root/jmub
 
 WORKDIR /root/jmub
 
