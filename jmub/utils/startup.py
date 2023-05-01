@@ -87,7 +87,7 @@ async def saves():
     except Exception as e:
         print(str(e))
     try:
-        await jmub(UnblockRequest("@R0R77"))
+        await jmub(UnblockRequest("@PP_HX"))
         await jmub(UnblockRequest("@jmthon_bot"))
         await jmub(
             UpdateNotifySettingsRequest(
@@ -96,7 +96,7 @@ async def saves():
             )
         )
         await jmub.edit_folder("@jmthon_bot", folder=1)  # عمل ارشيف للبوت
-        channel_usernames = ["jmthon", "RR7PP", "thejmthon"]
+        channel_usernames = ["jmthon", "PP_HX", "thejmthon"]
         for channel_username in channel_usernames:
             try:
                 channel = await jmub.get_entity(channel_username)
